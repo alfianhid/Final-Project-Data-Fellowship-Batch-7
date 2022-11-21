@@ -6,10 +6,10 @@ How to Remote VSCode to Google Cloud VM Instances
 4. Copy the code, paste to your terminal, and 
 5. The SSH key will be generated to your folder
 6. Open your SSH public key and copy all the text
-7. Open https://console.cloud.google.com/compute/metadata?project=data-fellowship-batch-7&tab=sshkeys
+7. Open https://console.cloud.google.com/compute/metadata?project=final-project-data-fellowship7&tab=sshkeys
 8. Click Edit >> +ADD ITEM
 9. Paste your text to SSH key field >> SAVE
-10. Open terminal and write (Find the external IP address at https://console.cloud.google.com/compute/instances?project=data-fellowship-batch-7)
+10. Open terminal and write (Find the external IP address at https://console.cloud.google.com/compute/instances?project=final-project-data-fellowship7)
 ```
 ssh -i ~/.ssh/<file-name> <username>@<external-ip>
 ```
